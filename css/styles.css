@@ -1,7 +1,8 @@
 body{
     
     color: #E6CCA9;
-  background-image: url("https://th.bing.com/th/id/R.132b4c7a35d1c4e3c1a6b09b4f44e5b6?rik=j2z0mX6i4YUPIA&riu=http%3a%2f%2fcdn.osxdaily.com%2fwp-content%2fuploads%2f2016%2f02%2fblue-2-texture-wallpaper.jpg&ehk=h6OC96IsJz0Fd2YP1snj9e4aw%2f8UZEU2eHzlEwCIvX0%3d&risl=&pid=ImgRaw&r=0");
+    background: fixed;
+  background-image: url(https://mcdn.wallpapersafari.com/medium/86/86/WiPOjz.jpg);
  }
 
  img{
@@ -9,7 +10,7 @@ body{
     border: solid;
     border-image: url(https://www.freeiconspng.com/uploads/circle-png-7.png) 50% round;
     padding: 1%;
-    border-radius: 30px;
+    border-radius: 40px;
     border-width: 10px;
  }
 
