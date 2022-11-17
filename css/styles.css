@@ -1,14 +1,14 @@
 body{
     
     color: #E6CCA9;
-    background: fixed;
-  background-image: url(https://mcdn.wallpapersafari.com/medium/86/86/WiPOjz.jpg);
+    background-size: 100%;
+  background-image: url(/assets/background.jpg);
  }
 
  img{
     margin: 19px;
     border: solid;
-    border-image: url(https://www.freeiconspng.com/uploads/circle-png-7.png) 50% round;
+    border-color: 50% round;
     padding: 1%;
     border-radius: 40px;
     border-width: 10px;
@@ -17,7 +17,7 @@ body{
  hr{
    border-style: dotted none none;
    width: 50%;
-   border-color: gray;
+   border-color: rgb(145, 122, 122);
    border-width: 4px;
  }
 
