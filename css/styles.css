@@ -4,24 +4,39 @@ body{
     background: fixed linear-gradient(rgb(16,45,100), black);
 }
 
- img{
+ img.profile{
     width: 60%;
     max-width: 300px;
     margin: 19px;
     border: solid;
-    border-color: 50% round;
     padding: 1%;
     border-radius: 40px;
     border-width: 10px;
  }
 
-hr.top{
+ img.social{
+   width: 50px;
+   margin:20px;
+   border: solid;
+   border-color:rgb(255, 213, 255);
+   border-radius: 100px;
+ }
+
+hr.heading{
+   width: 200px;
    border-radius: 10px;
    border-width: 5px;
    border-style: double;
 }
 
- hr{
+hr{
+   width: 200px;
+   border-radius: 10px;
+   border-width: 5px;
+   border-style: dotted;
+}
+
+ hr.links{
    border-style: dotted none none;
    width: 50%;
    max-width: 200px;
@@ -53,8 +68,49 @@ p{
 
  }
 
+ p.footer{
+   font-size: 10px;
+}
+
  a{
     font-size: 19px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #FF6D6D;
+ }
+
+ table.contact{
+   border-spacing: 30px;
+   letter-spacing: 1px;
+ }
+
+ table.links{
+   border-spacing: 30px;
+   letter-spacing: 1px;
+ }
+
+ td.contact{
+   text-align: center;
+   padding: 9px;
+   border-radius: 100px;
+
+   border: solid;
+   border-width: 5px;
+   border-color: violet;
+
+   width: 150px;
+ }
+
+ td.links{
+   text-align: center;
+   border-radius: 100px;
+
+   border-top: solid;
+   border-top-width: 1px;
+   border-top-color: violet;
+   
+   border-bottom: solid;
+   border-bottom-width: 10px;
+   border-bottom-color:violet;
+   
+   width: 200px;
  }
