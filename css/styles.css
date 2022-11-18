@@ -1,7 +1,7 @@
 body{
     
     color: #E6CCA9;
-    background-image: linear-gradient(rgb(16, 45, 100), black);
+    background: fixed linear-gradient(rgb(16,45,100), black);
 }
 
  img{
@@ -14,6 +14,12 @@ body{
     border-radius: 40px;
     border-width: 10px;
  }
+
+hr.top{
+   border-radius: 10px;
+   border-width: 5px;
+   border-style: double;
+}
 
  hr{
    border-style: dotted none none;
