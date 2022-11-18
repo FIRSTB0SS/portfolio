@@ -9,9 +9,9 @@ body{
     max-width: 300px;
     margin: 19px;
     border: solid;
-    padding: 1%;
-    border-radius: 40px;
-    border-width: 10px;
+    padding: 0.2%;
+    border-radius: 100px;
+    border-width: 1px;
  }
 
  img.social{
@@ -21,13 +21,6 @@ body{
    border-color:rgb(255, 213, 255);
    border-radius: 100px;
  }
-
-hr.heading{
-   width: 200px;
-   border-radius: 10px;
-   border-width: 5px;
-   border-style: double;
-}
 
 hr{
    width: 200px;
@@ -45,11 +38,16 @@ hr{
  }
 
  h1{
-    margin-top: 1%;
-    margin-bottom: 1px;
+    background-color: #f8f1e8;
+    width: 300px;
+    padding-bottom: 5px;
+    text-align: center;
+    border:solid;
+    border-color: #E6CCA9;
+    border-radius: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
-    color: #FF6D6D;
+    color: #d15c5c;
  }
 
  h2{
@@ -70,6 +68,11 @@ p{
 
  p.footer{
    font-size: 10px;
+}
+
+ p.footer:hover{
+   word-spacing: 5px;
+
 }
 
  a{
