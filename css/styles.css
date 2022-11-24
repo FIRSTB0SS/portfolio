@@ -17,7 +17,7 @@ body{
    width: 50px;
    margin:20px;
    border: solid;
-   border-color:rgb(255, 213, 255);
+   border-color:#E6CCA9;
    border-radius: 100px;
  }
 
@@ -90,29 +90,17 @@ p{
    letter-spacing: 1px;
  }
 
- td.contact{
-   text-align: center;
-   padding: 9px;
-   border-radius: 100px;
-
-   border: solid;
-   border-width: 5px;
-   border-color: violet;
-
-   width: 150px;
- }
-
  td.links{
    text-align: center;
    border-radius: 100px;
 
    border-top: solid;
-   border-top-width: 1px;
-   border-top-color:#E6CCA9;
+   border-top-width: 2px;
+   border-top-color:#000000;
    
    border-bottom: solid;
    border-bottom-width: 10px;
-   border-bottom-color:#E6CCA9;
+   border-bottom-color:#000000;
    
    width: 200px;
  }
