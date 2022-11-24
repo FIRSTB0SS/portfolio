@@ -108,11 +108,25 @@ p{
 
    border-top: solid;
    border-top-width: 1px;
-   border-top-color: violet;
+   border-top-color:#E6CCA9;
    
    border-bottom: solid;
    border-bottom-width: 10px;
-   border-bottom-color:violet;
+   border-bottom-color:#E6CCA9;
    
    width: 200px;
+ }
+
+ img.projects{
+   border: solid 3px;
+   border-color: black;
+   border-radius: 40px;
+ }
+
+ table.skills{
+   border:solid 3px;
+   border-color:#E6CCA9;
+   border-radius: 40px;
+   font-size: large;
+
  }
