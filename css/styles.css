@@ -71,6 +71,7 @@ p.note {
   margin: 20px;
   padding: 10px;
   border-radius: 10px;
+  border: solid;
   width: 360px;
 }
 
