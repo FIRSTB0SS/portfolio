@@ -10,7 +10,8 @@ body{
     border: solid;
     padding: 0.2%;
     border-radius: 100px;
-    border-width: 1px;
+    border-width: 2px;
+    border-color:rgb(128, 19, 19);
  }
 
  img.social{
