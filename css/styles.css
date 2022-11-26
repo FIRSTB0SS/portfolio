@@ -80,6 +80,12 @@ p{
     color: #FF6D6D;
  }
 
+a.proj{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: rgb(125, 137, 213);
+}
+
  table.contact{
    border-spacing: 30px;
    letter-spacing: 1px;
