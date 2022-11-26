@@ -31,7 +31,7 @@ img.social {
 }
 
 hr {
-  width: 200px;
+  max-width: 200px;
   border-radius: 10px;
   border-width: 5px;
   border-style: dotted;
@@ -47,7 +47,7 @@ hr.links {
 
 h1 {
   background-color: #f8f1e8;
-  width: 300px;
+  max-width: 300px;
   padding-bottom: 5px;
   text-align: center;
   border: solid;
@@ -80,7 +80,7 @@ p.note {
   padding: 10px;
   border-radius: 10px;
   border: solid;
-  width: 380px;
+  max-width: 380px;
 }
 
 p.footer {
@@ -137,6 +137,7 @@ td.links {
 }
 
 table.skills {
+  max-width: 400px;
   border: solid 3px;
   border-color: #d2bb9d;
   border-radius: 40px;
