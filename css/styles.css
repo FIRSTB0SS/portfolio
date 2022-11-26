@@ -1,6 +1,6 @@
 body{
     color: #E6CCA9;
-    background: linear-gradient(rgb(16,45,100), rgb(19, 102, 19), rgb(134, 42, 42) );
+    background-color: black ;
 }
 
  img.profile{
@@ -102,11 +102,11 @@ a.proj{
 
    border-top: solid;
    border-top-width: 2px;
-   border-top-color:#000000;
+   border-top-color:#a88b8b;
    
    border-bottom: solid;
    border-bottom-width: 10px;
-   border-bottom-color:#000000;
+   border-bottom-color:#111010;
    
    width: 200px;
  }
@@ -119,7 +119,7 @@ a.proj{
 
  table.skills{
    border:solid 3px;
-   border-color:#E6CCA9;
+   border-color:#d2bb9d;
    border-radius: 40px;
    font-size: large;
 
