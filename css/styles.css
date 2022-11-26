@@ -14,6 +14,12 @@ img.profile {
   border-color: rgb(128, 19, 19);
 }
 
+img.projects {
+  border: solid 3px;
+  border-color: rgb(121, 90, 90);
+  border-radius: 40px;
+}
+
 img.social {
   width: 50px;
   margin: 20px;
@@ -126,12 +132,6 @@ td.links {
   border-bottom-color: #111010;
 
   width: 200px;
-}
-
-img.projects {
-  border: solid 3px;
-  border-color: black;
-  border-radius: 40px;
 }
 
 table.skills {
