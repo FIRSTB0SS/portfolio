@@ -153,8 +153,10 @@ section.bgd {
   border-radius: 40px;
   zoom: 90%;
   transition: 0.5s;
+  transition: border 0.2s 0.1s;
 }
 
 section.bgd:hover {
-  transform: scale(1.1);
+  background-color: rgba(110, 219, 32, 0.395);
+  border: solid;
 }
