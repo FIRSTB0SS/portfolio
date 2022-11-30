@@ -1,6 +1,6 @@
 body {
   color: #E6CCA9;
-  background-image: linear-gradient(to top right, red, blue);
+  background-image: linear-gradient(to top right, rgb(92, 60, 60), blue, rgb(152, 90, 90));
 }
 
 img.profile {
