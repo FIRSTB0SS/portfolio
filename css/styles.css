@@ -1,6 +1,6 @@
 body {
   color: #E6CCA9;
-  background-image: linear-gradient(to top right, rgb(92, 60, 60), blue, rgb(152, 90, 90));
+  background-image: radial-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
 }
 
 img.profile {
@@ -149,14 +149,13 @@ section.bgd {
   max-width: 500px;
   padding: 10px;
   margin: auto;
-  background-color: rgba(91, 170, 34, 0.395);
+  background-color: rgba(7, 69, 72, 0.467);
   border-radius: 40px;
   zoom: 90%;
-  transition: 0.5s;
-  transition: border 0.2s 0.1s;
+  transition: 0.5s, border 0.2s 0.1s;
 }
 
 section.bgd:hover {
-  background-color: rgba(110, 219, 32, 0.395);
+  background-color: rgba(72, 109, 118, 0.395);
   border: solid;
 }
