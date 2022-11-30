@@ -1,6 +1,6 @@
 body {
   color: #E6CCA9;
-  background-image: radial-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+  background-image: linear-gradient(to right,black,rgb(227, 183, 183), rgb(0, 0, 0));
 }
 
 img.profile {
@@ -138,7 +138,7 @@ td.links {
 
 table.skills {
   max-width: 400px;
-  border: solid 3px;
+  border: solid 0px;
   border-color: #d2bb9d;
   border-radius: 40px;
   font-size: large;
@@ -146,6 +146,7 @@ table.skills {
 }
 
 section.bgd {
+  border: solid rgb(119, 85, 85);
   max-width: 500px;
   padding: 10px;
   margin: 20px;
@@ -158,4 +159,14 @@ section.bgd {
 section.bgd:hover {
   background-color: rgba(72, 109, 118, 0.395);
   border: solid;
+}
+
+section.cnt{
+  border-radius: 20px;
+  width: fit-content;
+  margin: 10px;
+  padding: 10px;
+  background-color: #111010a0;
+  border: solid;
+  border-image: rgb(119, 85, 85);
 }
