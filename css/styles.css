@@ -1,6 +1,6 @@
 body {
   color: #E6CCA9;
-  background-color: black;
+  background-image: linear-gradient(to top right,red, blue);
 }
 
 img.profile {
@@ -143,4 +143,12 @@ table.skills {
   border-radius: 40px;
   font-size: large;
 
+}
+
+section.bgd{
+  max-width: 500px;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(91, 170, 34, 0.395);
+  border-radius: 40px;
 }
