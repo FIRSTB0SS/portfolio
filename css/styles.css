@@ -1,6 +1,8 @@
 body {
   color: #E6CCA9;
-  background-image: linear-gradient(to right,black,rgb(227, 183, 183), rgb(0, 0, 0));
+  background: fixed;
+  /*background-color: black;*/
+  background-image: url("https://gist.github.com/brettlangdon/85942af486eb79118467/raw/2a7409cd3c26a90b2e82bdc40dc7db18b92b3517/5c4bWGL%2520-%2520Imgur.jpg");
 }
 
 img.profile {
@@ -146,10 +148,11 @@ table.skills {
 }
 
 section.bgd {
+  backdrop-filter: blur(10px);
   border: solid rgb(119, 85, 85);
   max-width: 500px;
   padding: 10px;
-  margin: 20px;
+  margin: 20px auto;
   background-color: rgba(32, 56, 57, 0.467);
   border-radius: 40px;
   zoom: 90%;
@@ -161,10 +164,10 @@ section.bgd:hover {
   border: solid;
 }
 
-section.cnt{
+section.cnt {
   border-radius: 20px;
   width: fit-content;
-  margin: 10px;
+  margin: 10px auto;
   padding: 10px;
   background-color: #111010a0;
   border: solid;
