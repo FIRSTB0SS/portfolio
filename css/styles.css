@@ -148,7 +148,8 @@ table.skills {
 section.bgd {
   max-width: 500px;
   padding: 10px;
-  margin: auto;
+  margin: 50px;
+
   background-color: rgba(32, 56, 57, 0.467);
   border-radius: 40px;
   zoom: 90%;
