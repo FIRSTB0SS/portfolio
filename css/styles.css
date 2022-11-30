@@ -1,6 +1,6 @@
 body {
   color: #E6CCA9;
-  background-image: linear-gradient(to top right,red, blue);
+  background-image: linear-gradient(to top right, red, blue);
 }
 
 img.profile {
@@ -145,10 +145,16 @@ table.skills {
 
 }
 
-section.bgd{
+section.bgd {
   max-width: 500px;
   padding: 10px;
   margin: auto;
   background-color: rgba(91, 170, 34, 0.395);
   border-radius: 40px;
+  zoom: 90%;
+  transition: 0.5s;
+}
+
+section.bgd:hover {
+  transform: scale(1.1);
 }
