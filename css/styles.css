@@ -126,13 +126,7 @@ table.links {
 
 td.links {
   text-align: center;
-  border-radius: 50%;
-  transition: 0.5s;
-  width: 200px;
-}
-
-td.links:hover{
-  background-color: rgba(76, 92, 106, 0.515);
+  width: 50px;
 }
 
 table.skills {
