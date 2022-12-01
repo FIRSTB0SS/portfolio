@@ -1,9 +1,6 @@
 body {
   color: #E6CCA9;
-  background: fixed;
-  background-size: cover;
-  background-image: url("https://media3.giphy.com/media/3oEjI9wxVUUwxTYpBS/giphy.gif?cid=ecf05e47lctkrjtonh3hrtzqie8fp5zye323rkm6xdlrbkw0&rid=giphy.gif&ct=g");
-  background-repeat: repeat;
+  background: fixed black;
 }
 
 img.profile {
@@ -144,7 +141,7 @@ table.skills {
 
 }
 
-section.bgd {
+/* section.bgd {
   backdrop-filter: blur(10px);
   border: solid rgb(119, 85, 85);
   max-width: 500px;
@@ -153,7 +150,7 @@ section.bgd {
   background-color: rgba(88, 88, 88, 0.701);
   border-radius: 40px;
   zoom: 90%;
-}
+} */
 
 
 section.cnt {
