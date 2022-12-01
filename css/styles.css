@@ -1,8 +1,9 @@
 body {
   color: #E6CCA9;
   background: fixed;
-  /*background-color: black;*/
-  background-image: url("https://gist.github.com/brettlangdon/85942af486eb79118467/raw/2a7409cd3c26a90b2e82bdc40dc7db18b92b3517/5c4bWGL%2520-%2520Imgur.jpg");
+  background-size: cover;
+  background-image: url("https://media3.giphy.com/media/3oEjI9wxVUUwxTYpBS/giphy.gif?cid=ecf05e47lctkrjtonh3hrtzqie8fp5zye323rkm6xdlrbkw0&rid=giphy.gif&ct=g");
+  background-repeat: repeat;
 }
 
 img.profile {
@@ -125,17 +126,13 @@ table.links {
 
 td.links {
   text-align: center;
-  border-radius: 100px;
-
-  border-top: solid;
-  border-top-width: 2px;
-  border-top-color: #a88b8b;
-
-  border-bottom: solid;
-  border-bottom-width: 10px;
-  border-bottom-color: #111010;
-
+  border-radius: 50%;
+  transition: 0.5s;
   width: 200px;
+}
+
+td.links:hover{
+  background-color: rgba(76, 92, 106, 0.515);
 }
 
 table.skills {
@@ -153,16 +150,11 @@ section.bgd {
   max-width: 500px;
   padding: 10px;
   margin: 20px auto;
-  background-color: rgba(32, 56, 57, 0.467);
+  background-color: rgba(88, 88, 88, 0.701);
   border-radius: 40px;
   zoom: 90%;
-  transition: 0.5s, border 0.2s 0.1s;
 }
 
-section.bgd:hover {
-  background-color: rgba(72, 109, 118, 0.395);
-  border: solid;
-}
 
 section.cnt {
   border-radius: 20px;
